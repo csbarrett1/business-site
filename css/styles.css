@@ -1,0 +1,181 @@
+html { 
+  background: url(images/bg.jpeg) no-repeat center center fixed; 
+  background-size: cover;
+  font-size: 14px;
+  line-height: 12px;
+  background-color: #e0e0e0;
+}
+
+body {
+  font-family: "Merriweather";
+  margin: 20px auto;
+  font-size: 16px;
+  width: 60%;
+  letter-spacing: .5px;
+  min-width: 850px;
+}
+
+.current {
+  color: white;
+}
+
+.title {
+  font-size: 120px;
+  letter-spacing: -2px;
+  text-align: center;
+  color: #202326;
+  font-weight: 400;
+  line-height: 100px;
+  margin: -100px auto;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #fff;
+}
+
+li {
+  display: inline;
+  padding: 0 25px;
+}
+
+ul {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+  color: #202326;
+  margin: 0 auto;
+  letter-spacing: 3px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  display: inline-block;
+  /*margin-top: 50px;*/
+  margin-bottom: 10px;
+  letter-spacing: -2px;
+  font-weight: 500;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, .8);
+  border-top: 75px solid #5b5955;
+  padding: 0 50px;
+}
+
+section {
+  margin-bottom: 75px;
+  padding: 0 50px;
+  line-height: 20px;
+  display: block;
+}
+
+.person {
+  background-image: cover;
+  float: left;
+  width: 30%;
+  max-height: 100%;
+  padding: 5px;
+  margin-bottom: -10px;
+  margin-top: 10px;
+}
+
+section > .people {
+  padding-bottom: 80px;
+  margin: 0 auto;
+  margin-left: 35px;
+}
+
+img {
+  max-width: 100%;
+}
+
+article {
+  margin: 50px 0;
+  border-bottom: 4px double #202326;
+}
+
+.description {
+  margin: none;
+}
+
+.price {
+  color: red;
+  font-size: 20px;
+}
+
+ul > p {
+  font-size: 16px;
+  text-decoration: underline;
+  text-align: left;
+  color: white;
+  padding-left: 25px;
+}
+
+.address {
+  margin-top: 30px;
+  line-height: 2px;
+}
+
+#map {
+  width: 500px;
+  height: 400px;
+  background-color: #ccc;
+  border: 3px solid #5b5955;
+  border-radius: 5px;
+}
+
+.contact {
+  margin: 20px;
+}
+
+.contact > img {
+  width: 10px;
+  display: inline;
+  padding-right: 5px;
+}
+
+.contact > a > img {
+  width: 60px;
+  display: inline;
+}
+
+.contact > a > img:hover {
+  display: inline;
+  border-right: 2px solid red;
+  border-radius: 10px;
+}
+ 
+
+.footer {
+  display: block;
+  text-align: left;
+  color: white;
+  line-height: 20px;
+}
+
+.footer > a:hover {
+  color: black;
+}
+
+footer > p {
+  text-align: center;
+  color: white;
+  line-height: 15px;
+  padding-top: 13px;
+}
+
+footer {
+  background-color: #5b5955;
+  padding: 1px;
+  margin-top: -55px;
+  height: 75px;
+}
+

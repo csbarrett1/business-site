@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>[Beard & Co.]</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <header>
+    <ul>
+      <li><a href="home.html">home</a></li>
+      <li><a href="products.html">products</a></li>
+      <li><a href="culture.html">culture</a></li>
+      <li class="current"><a href="contact.html">contact</a></li>
+    </ul>
+    <div class="title">
+      <p>beard & co.</p>
+    </div>
+  </header>
+  <body>
+    <center class="content">
+      <article class="contactall">
+        <h1>contact us //</h1>
+        <section class="contact">
+          <a href="http://www.facebook.com/"><img src="images/facebook.png" alt=""></a>
+          <a href="http://www.twitter.com/"><img src="images/twitter.png" alt=""></a>
+        </section>
+        <section class="contact">
+          <img src="images/phone.png" alt="">
+          <a href="tel:6154775513">615.477.5513</a>
+        </section>
+        <section class="address">
+          <p>Beard & Co.</p>
+          <p>283 Plus Park Blvd.</p>
+          <p>Nashville, TN 37217</p>
+          <div id="map"></div>
+        <script>
+          function initMap() {
+            var mapDiv = document.getElementById('map');
+            var map = new google.maps.Map(mapDiv, {
+              center: {lat: 36.124735, lng: -86.725524},
+              zoom: 16
+            });
+          }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+            async defer></script>
+        </section>
+      </article>
+    </center>
+  </body>
+  <footer>
+      <p>BEARD & CO. |  283 Plus Park Blvd. | Nashville, TN 37217</p>
+  </footer>
+</html>
